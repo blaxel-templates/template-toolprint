@@ -31,13 +31,13 @@ A template implementation of a conversational agent using onegrep and GPT-4. Thi
 
 ## Installation
 
-**Clone the repository and install dependencies:**
+- **Clone the repository and install dependencies:**
 
-```bash
-git clone https://github.com/beamlit/template-onegrep.git
-cd template-onegrep
-uv sync
-```
+  ```bash
+  git clone https://github.com/beamlit/template-onegrep.git
+  cd template-onegrep
+  uv sync
+  ```
 
 - **Environment Variables:** Create a `.env` file with your configuration. You can begin by copying the sample file:
 
