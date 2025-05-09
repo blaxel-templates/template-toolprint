@@ -1,0 +1,11 @@
+# TODO: Make integration compatible with agents
+# apiVersion: blaxel.ai/v1alpha1
+# kind: IntegrationConnection
+# metadata:
+#   name: onegrep-integration
+# spec:
+#   integration: onegrep
+#   config:
+#     onegrepApiUrl: ${secrets.ONEGREP_API_URL}
+#   secret:
+#     onegrepApiKey: ${secrets.ONEGREP_API_KEY}
