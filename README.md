@@ -17,9 +17,9 @@ A template implementation of a conversational agent using onegrep and GPT-4. Thi
 
 - **Node.js:** v18 or later.
 - **OneGrep**: Install OneGrep CLI and login to your account
-```bash
-npx -y @onegrep/cli account
-```
+  ```bash
+  npx -y @onegrep/cli account
+  ```
 - **[Blaxel CLI](https://docs.blaxel.ai/Get-started):** Ensure you have the Blaxel CLI installed. If not, install it globally:
   ```bash
   curl -fsSL https://raw.githubusercontent.com/beamlit/toolkit/main/install.sh | BINDIR=$HOME/.local/bin sh
