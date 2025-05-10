@@ -5,6 +5,4 @@ models = ["sandbox-openai"]
 
 [env]
 ONEGREP_API_URL = "$ONEGREP_API_URL"
-
-[secrets]
 ONEGREP_API_KEY = "${secrets.ONEGREP_API_KEY}"
