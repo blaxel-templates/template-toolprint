@@ -2,3 +2,7 @@ type = "agent"
 
 functions = ["all"]
 models = ["sandbox-openai"]
+
+[secrets]
+ONEGREP_API_KEY = "${secrets.ONEGREP_API_KEY}"
+ONEGREP_API_URL = "${secrets.ONEGREP_API_URL}"
