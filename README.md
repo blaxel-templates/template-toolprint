@@ -1,17 +1,16 @@
-
 <p align="center">
   <img style="border-radius:10px" src=".github/assets/cover.png" alt="Blaxel"/>
 </p>
 
-# Blaxel & OneGrep
-A template implementation of a conversational agent using onegrep and GPT-4. This agent demonstrates the power of OneGrep for building interactive AI agents and give then superpowers with better tools.
+# Semantic Tool Search - OneGrep
+A template implementation of a conversational agent using [OneGrep](https://www.onegrep.dev/) and GPT-4. This agent is powered by OneGrep for semantic tool search and tool selection, enabling effective autonomous actions even at a high number of tools.
 
 ## Features
 
 - Interactive conversational interface
-- Semantic search on tools deployed on OneGrep feat Blaxel
+- Semantic search on tools powered by OneGrep
 - Streaming responses for real-time interaction
-- Easy deployment and integration with Blaxel platform
+- Serverless agent deployment as an endpoint on Blaxel
 
 ## Prerequisites
 
@@ -20,9 +19,11 @@ A template implementation of a conversational agent using onegrep and GPT-4. Thi
   ```bash
   npx -y @onegrep/cli account
   ```
-- **[Blaxel CLI](https://docs.blaxel.ai/Get-started):** Ensure you have the Blaxel CLI installed. If not, install it globally:
+- **[Blaxel CLI](https://docs.blaxel.ai/Get-started):** Ensure you have Blaxel CLI installed. If not, install it globally:
   ```bash
-  curl -fsSL https://raw.githubusercontent.com/beamlit/toolkit/main/install.sh | BINDIR=$HOME/.local/bin sh
+  curl -fsSL \
+  https://raw.githubusercontent.com/blaxel-ai/toolkit/main/install.sh \
+  | BINDIR=/usr/local/bin sudo -E sh
   ```
 - **Blaxel login:** Login to Blaxel platform
   ```bash
@@ -34,9 +35,9 @@ A template implementation of a conversational agent using onegrep and GPT-4. Thi
 - **Clone the repository and install dependencies:**
 
   ```bash
-  git clone https://github.com/beamlit/template-onegrep.git
+  git clone https://github.com/blaxel-ai/template-onegrep.git
   cd template-onegrep
-  uv sync
+  pnpm i
   ```
 
 - **Environment Variables:** Create a `.env` file with your configuration. You can begin by copying the sample file:
@@ -47,7 +48,7 @@ A template implementation of a conversational agent using onegrep and GPT-4. Thi
 
   Then, update the following values with your own credentials:
 
-  - [OneGrep API Key](https://onegrep.dev): `ONEGREP_API_KEY`
+  - [OneGrep API key](https://onegrep.dev): `ONEGREP_API_KEY`
   - [OneGrep URL](https://onegrep.dev): `ONEGREP_URL`
 
 ## Running the Server Locally
