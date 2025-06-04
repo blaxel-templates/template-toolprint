@@ -16,7 +16,6 @@ export default async function agent(
 ): Promise<void> {
   const llm = await blModel("sandbox-openai");
   const searchResults = await toolbox.search(input)
-
   // Extract the tools from the search results
   const tools = searchResults.map((result) => result.result)
   const streamResponse = await createReactAgent({
