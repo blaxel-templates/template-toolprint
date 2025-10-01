@@ -25,7 +25,7 @@ importers:
         version: 0.2.68(@langchain/core@0.3.51(openai@4.97.0(ws@8.18.2)(zod@3.24.4)))(react@19.1.0)(zod-to-json-schema@3.24.5(zod@3.24.4))
       '@onegrep/sdk':
         specifier: ^0.0.32
-        version: 0.0.32(dfd52ddde90cb2df5ce1479ffb5212da)
+        version: 0.0.32(128cb3746d9d8a2a8f0877d6570be5de)
       fastify:
         specifier: ^5.3.2
         version: 5.3.2
@@ -257,15 +257,15 @@ packages:
     engines: {node: '>=18'}
 
   '@blaxel/core@0.2.40':
-    resolution: {integrity: sha512-UkRe0/rmKX/1qXossIv1kAu728KINQKAcrFCsRjnLaOuHOBcAwEFEc3/Bf5TX6o8Jx27RL1Dfa/R4YA43JJAmA==}
+    resolution: {integrity: sha512-Avrmfh3vTmdJJhHXphfkX0uz4iB5i416W+0imH1AlY5TCczkrQT6i4M9N/GJtpJQqMW3DW7E7KJJaF+kKVEF8Q==}
     engines: {node: '>=18'}
 
   '@blaxel/langgraph@0.2.40':
-    resolution: {integrity: sha512-bMb+Qt46K50qz+BS79kboDTlVBaEQr+nouhYlgpXTHSYeebfd9BlipFqg6ItZaaDgOk6fy6XEjeRdMzo/xcoug==}
+    resolution: {integrity: sha512-okqd4NRhj4uPQkT7m9o8uISi4V6c9rPO52TmryN5YVPQK530xUHT1D5VPSniSunO5H1/PBLdCURST51h52UI1A==}
     engines: {node: '>=18'}
 
   '@blaxel/telemetry@0.2.40':
-    resolution: {integrity: sha512-VhDvUFMBF1uPRtRrkDHS8v59Jv/aw4fOzi9g53QbKK0T2p65XSvF+mezDLYHFvmOMLz44muUGEgwxPHXOdxAMw==}
+    resolution: {integrity: sha512-5LyyKDfGAENSMLCREFGeSSI/YiDfh0SFolRZxEMGqkOp6aQG4eOb4DcGjD8/hnUNF5u3qhYPMutI5P0/5dOzbg==}
     engines: {node: '>=18'}
 
   '@cfworker/json-schema@4.1.1':
@@ -588,7 +588,7 @@ packages:
     resolution: {integrity: sha512-wxdGmOeRUQutCWfdKwFb+92RMdZZ8jvXkG7PD3ZcVLiuOXhC9LSe5xcc1UbWHcV29fV542IDHMfvf2OVdv9dZQ==}
     engines: {node: '>=18'}
     peerDependencies:
-      '@langchain/core': '>=0.2.40 <0.3.0 || >=0.3.40 < 0.4.0'
+      '@langchain/core': '>=0.2.36 <0.3.0 || >=0.3.40 < 0.4.0'
       zod-to-json-schema: ^3.x
     peerDependenciesMeta:
       zod-to-json-schema:
@@ -3336,7 +3336,7 @@ snapshots:
     dependencies:
       zod: 3.24.4
 
-  '@onegrep/sdk@0.0.32(dfd52ddde90cb2df5ce1479ffb5212da)':
+  '@onegrep/sdk@0.0.32(128cb3746d9d8a2a8f0877d6570be5de)':
     dependencies:
       '@blaxel/core': 0.2.14(@hey-api/openapi-ts@0.67.3(typescript@5.8.3))
       '@blaxel/langgraph': 0.2.40(@hey-api/openapi-ts@0.67.3(typescript@5.8.3))(@opentelemetry/api@1.9.0)(axios@1.9.0)(handlebars@4.7.8)(openai@4.97.0(ws@8.18.2)(zod@3.24.4))(ws@8.18.2)
